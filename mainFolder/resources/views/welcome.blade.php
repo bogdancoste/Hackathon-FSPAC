@@ -6,11 +6,12 @@
 -->
 <html>
 	<head>
-		<title>Massively by HTML5 UP</title>
+		<title>StoneCart</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	</head>
 	<body class="is-preload">
 
@@ -54,164 +55,74 @@
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-									<span class="date">April 25, 2017</span>
-									<h2><a href="#">And this is a<br />
-									massive headline</a></h2>
-									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									amet nullam sed etiam veroeros.</p>
+									<h2><a href="#">Welcome to StoneCart!<br />
+                                    </a></h2>
+									<p>Your Path to Financial Confidence</p>
 								</header>
 								<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
 								<ul class="actions special">
-									<li><a href="#" class="button large">Full Story</a></li>
-								</ul>
+                                    <li><a href="{{ route('register') }}" class="button large">SIGN UP</a></li>								</ul>
 							</article>
 
 						<!-- Posts -->
 							<section class="posts">
 								<article>
 									<header>
-										<span class="date">April 24, 2017</span>
-										<h2><a href="#">Sed magna<br />
-										ipsum faucibus</a></h2>
+										<h2><a href="#">Enhance you expenditure plan</a></h2>
 									</header>
 									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<p>Find most optimal methods to put in motion you plans by enhancing your financial journey.</p>
 									<ul class="actions special">
 										<li><a href="#" class="button">Full Story</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
-										<span class="date">April 22, 2017</span>
-										<h2><a href="#">Primis eget<br />
-										imperdiet lorem</a></h2>
+										<h2><a href="#">Today's Lesson</a></h2>
 									</header>
 									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<p>Stay tuned with your daily educational resources.</p>
 									<ul class="actions special">
 										<li><a href="#" class="button">Full Story</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
-										<span class="date">April 18, 2017</span>
-										<h2><a href="#">Ante mattis<br />
-										interdum dolor</a></h2>
+										<h2><a href="#">Quiz Time!</a></h2>
 									</header>
 									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<p>Check your financial literacy knowledge by taking today's quiz.</p>
 									<ul class="actions special">
 										<li><a href="#" class="button">Full Story</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
-										<span class="date">April 14, 2017</span>
-										<h2><a href="#">Tempus sed<br />
-										nulla imperdiet</a></h2>
+										<h2><a href="#">How do they spend their money?</a></h2>
 									</header>
 									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<p>Find how people around you choose to spend their money wisely, or not.</p>
 									<ul class="actions special">
 										<li><a href="#" class="button">Full Story</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
-										<span class="date">April 11, 2017</span>
-										<h2><a href="#">Odio magna<br />
-										sed consectetur</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 7, 2017</span>
-										<h2><a href="#">Augue lorem<br />
-										primis vestibulum</a></h2>
+										<h2><a href="#">Learn more from us.</a></h2>
 									</header>
 									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<p>Here you have all books, videos and podcasts to learn more.</p>
 									<ul class="actions special">
 										<li><a href="#" class="button">Full Story</a></li>
 									</ul>
 								</article>
 							</section>
-
-						<!-- Footer -->
-							<footer>
-								<div class="pagination">
-									<!--<a href="#" class="previous">Prev</a>-->
-									<a href="#" class="page active">1</a>
-									<a href="#" class="page">2</a>
-									<a href="#" class="page">3</a>
-									<span class="extra">&hellip;</span>
-									<a href="#" class="page">8</a>
-									<a href="#" class="page">9</a>
-									<a href="#" class="page">10</a>
-									<a href="#" class="next">Next</a>
-								</div>
-							</footer>
 
 					</div>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-						</section>
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>1234 Somewhere Road #87257<br />
-								Nashville, TN 00000-0000</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(000) 000-0000</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">info@untitled.tld</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
-
 				<!-- Copyright -->
 					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+						<ul><li>&copy; Copyright StoneCart</li></ul>
 					</div>
 
 			</div>
@@ -4956,3 +4867,265 @@ input, select, textarea {
 
 	}
 </style>
+
+<script>
+    /*
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+(function($) {
+
+var	$window = $(window),
+    $body = $('body'),
+    $wrapper = $('#wrapper'),
+    $header = $('#header'),
+    $nav = $('#nav'),
+    $main = $('#main'),
+    $navPanelToggle, $navPanel, $navPanelInner;
+
+// Breakpoints.
+    breakpoints({
+        default:   ['1681px',   null       ],
+        xlarge:    ['1281px',   '1680px'   ],
+        large:     ['981px',    '1280px'   ],
+        medium:    ['737px',    '980px'    ],
+        small:     ['481px',    '736px'    ],
+        xsmall:    ['361px',    '480px'    ],
+        xxsmall:   [null,       '360px'    ]
+    });
+
+/**
+ * Applies parallax scrolling to an element's background image.
+ * @return {jQuery} jQuery object.
+ */
+$.fn._parallax = function(intensity) {
+
+    var	$window = $(window),
+        $this = $(this);
+
+    if (this.length == 0 || intensity === 0)
+        return $this;
+
+    if (this.length > 1) {
+
+        for (var i=0; i < this.length; i++)
+            $(this[i])._parallax(intensity);
+
+        return $this;
+
+    }
+
+    if (!intensity)
+        intensity = 0.25;
+
+    $this.each(function() {
+
+        var $t = $(this),
+            $bg = $('<div class="bg"></div>').appendTo($t),
+            on, off;
+
+        on = function() {
+
+            $bg
+                .removeClass('fixed')
+                .css('transform', 'matrix(1,0,0,1,0,0)');
+
+            $window
+                .on('scroll._parallax', function() {
+
+                    var pos = parseInt($window.scrollTop()) - parseInt($t.position().top);
+
+                    $bg.css('transform', 'matrix(1,0,0,1,0,' + (pos * intensity) + ')');
+
+                });
+
+        };
+
+        off = function() {
+
+            $bg
+                .addClass('fixed')
+                .css('transform', 'none');
+
+            $window
+                .off('scroll._parallax');
+
+        };
+
+        // Disable parallax on ..
+            if (browser.name == 'ie'			// IE
+            ||	browser.name == 'edge'			// Edge
+            ||	window.devicePixelRatio > 1		// Retina/HiDPI (= poor performance)
+            ||	browser.mobile)					// Mobile devices
+                off();
+
+        // Enable everywhere else.
+            else {
+
+                breakpoints.on('>large', on);
+                breakpoints.on('<=large', off);
+
+            }
+
+    });
+
+    $window
+        .off('load._parallax resize._parallax')
+        .on('load._parallax resize._parallax', function() {
+            $window.trigger('scroll');
+        });
+
+    return $(this);
+
+};
+
+// Play initial animations on page load.
+    $window.on('load', function() {
+        window.setTimeout(function() {
+            $body.removeClass('is-preload');
+        }, 100);
+    });
+
+// Scrolly.
+    $('.scrolly').scrolly();
+
+// Background.
+    $wrapper._parallax(0.925);
+
+// Nav Panel.
+
+    // Toggle.
+        $navPanelToggle = $(
+            '<a href="#navPanel" id="navPanelToggle">Menu</a>'
+        )
+            .appendTo($wrapper);
+
+        // Change toggle styling once we've scrolled past the header.
+            $header.scrollex({
+                bottom: '5vh',
+                enter: function() {
+                    $navPanelToggle.removeClass('alt');
+                },
+                leave: function() {
+                    $navPanelToggle.addClass('alt');
+                }
+            });
+
+    // Panel.
+        $navPanel = $(
+            '<div id="navPanel">' +
+                '<nav>' +
+                '</nav>' +
+                '<a href="#navPanel" class="close"></a>' +
+            '</div>'
+        )
+            .appendTo($body)
+            .panel({
+                delay: 500,
+                hideOnClick: true,
+                hideOnSwipe: true,
+                resetScroll: true,
+                resetForms: true,
+                side: 'right',
+                target: $body,
+                visibleClass: 'is-navPanel-visible'
+            });
+
+        // Get inner.
+            $navPanelInner = $navPanel.children('nav');
+
+        // Move nav content on breakpoint change.
+            var $navContent = $nav.children();
+
+            breakpoints.on('>medium', function() {
+
+                // NavPanel -> Nav.
+                    $navContent.appendTo($nav);
+
+                // Flip icon classes.
+                    $nav.find('.icons, .icon')
+                        .removeClass('alt');
+
+            });
+
+            breakpoints.on('<=medium', function() {
+
+                // Nav -> NavPanel.
+                    $navContent.appendTo($navPanelInner);
+
+                // Flip icon classes.
+                    $navPanelInner.find('.icons, .icon')
+                        .addClass('alt');
+
+            });
+
+        // Hack: Disable transitions on WP.
+            if (browser.os == 'wp'
+            &&	browser.osVersion < 10)
+                $navPanel
+                    .css('transition', 'none');
+
+// Intro.
+    var $intro = $('#intro');
+
+    if ($intro.length > 0) {
+
+        // Hack: Fix flex min-height on IE.
+            if (browser.name == 'ie') {
+                $window.on('resize.ie-intro-fix', function() {
+
+                    var h = $intro.height();
+
+                    if (h > $window.height())
+                        $intro.css('height', 'auto');
+                    else
+                        $intro.css('height', h);
+
+                }).trigger('resize.ie-intro-fix');
+            }
+
+        // Hide intro on scroll (> small).
+            breakpoints.on('>small', function() {
+
+                $main.unscrollex();
+
+                $main.scrollex({
+                    mode: 'bottom',
+                    top: '25vh',
+                    bottom: '-50vh',
+                    enter: function() {
+                        $intro.addClass('hidden');
+                    },
+                    leave: function() {
+                        $intro.removeClass('hidden');
+                    }
+                });
+
+            });
+
+        // Hide intro on scroll (<= small).
+            breakpoints.on('<=small', function() {
+
+                $main.unscrollex();
+
+                $main.scrollex({
+                    mode: 'middle',
+                    top: '15vh',
+                    bottom: '-15vh',
+                    enter: function() {
+                        $intro.addClass('hidden');
+                    },
+                    leave: function() {
+                        $intro.removeClass('hidden');
+                    }
+                });
+
+        });
+
+    }
+
+})(jQuery);
+
+</script>
